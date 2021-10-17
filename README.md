@@ -1,7 +1,7 @@
 # Layout-Guided Novel View Synthesis from a Single Indoor Panorama (CVPR 2021)
 
 ## PNVS Dataset
-To address the task of panoramic view synthesis, we build a large-scale photo-realistic dataset upon the [Structured3D](https://structured3d-dataset.org/) dataset. We regard the original panoramas in Structured3D as source views, and render 3 target views for each of them. We also manually filter out badly rendered images to ensure the quality of target views. The full dataset can be downloaded from this [OneDrive Link](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/xujl1_shanghaitech_edu_cn/EU5LNf55F0FEhxoML7eC10YBMdYRGrFqQvXcgrzUPUCJdA?e=ep2AJn). Here is some basic information:  
+To address the task of panoramic view synthesis, we build a large-scale photo-realistic dataset upon the [Structured3D](https://structured3d-dataset.org/) dataset. We regard the original panoramas in Structured3D as source views, and render 3 target views for each of them. We also manually filter out badly rendered images to ensure the quality of target views. The full dataset (38.5 GB) can be downloaded from this [OneDrive Link](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/xujl1_shanghaitech_edu_cn/EU5LNf55F0FEhxoML7eC10YBMdYRGrFqQvXcgrzUPUCJdA?e=ep2AJn). Here is some basic information:  
 
 | Set Name | #Train | #Val | Camera Translation(m) | Resolution |
 | :----------: | :----------: | :----------: | :----------: | :----------: |
