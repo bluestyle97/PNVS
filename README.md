@@ -11,40 +11,37 @@ To address the task of panoramic view synthesis, we build a large-scale photo-re
 After unzipping, the dataset should be organized as follows:
 
 ```
-├── <data_root>
-│   └── <set_name>
-│       └── train.txt
-│       └── val.txt
-│       └── source_image
-│           └── {scene_id}_{room_id}.png
-│       └── source_depth
-│           └── {scene_id}_{room_id}.png
-│       └── source_camera
-│           └── {scene_id}_{room_id}.txt
-│       └── source_layout
-│           └── {scene_id}_{room_id}.txt
-│       └── target_image
-│           └── {scene_id}_{room_id}_{index}.png
-│       └── target_camera
-│           └── {scene_id}_{room_id}_{index}.txt
+<data_root>
+└── <set_name>
+    └── train.txt
+    └── val.txt
+    └── source_image
+        └── {scene_id}_{room_id}.png
+    └── source_depth
+        └── {scene_id}_{room_id}.png
+    └── source_camera
+        └── {scene_id}_{room_id}.txt
+    └── source_layout
+        └── {scene_id}_{room_id}.txt
+    └── target_image
+        └── {scene_id}_{room_id}_{index}.png
+    └── target_camera
+        └── {scene_id}_{room_id}_{index}.txt
 ```
 
 If you use PNVS dataset in your research, please cite the papers:
 
 ```
-@inproceedings{xu2021layout,
-  title={Layout-Guided Novel View Synthesis from a Single Indoor Panorama},
-  author={Xu, Jiale and Zheng, Jia and Xu, Yanyu and Tang, Rui and Gao, Shenghua},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={16438--16447},
-  year={2021}
+@inproceedings{Xu_2021_CVPR,
+  title     = {Layout-Guided Novel View Synthesis From a Single Indoor Panorama},
+  author    = {Xu, Jiale and Zheng, Jia and Xu, Yanyu and Tang, Rui and Gao, Shenghua},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2021},
 }
-@inproceedings{zheng2020structured3d,
-  title={Structured3d: A large photo-realistic dataset for structured 3d modeling},
-  author={Zheng, Jia and Zhang, Junfei and Li, Jing and Tang, Rui and Gao, Shenghua and Zhou, Zihan},
-  booktitle={Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part IX 16},
-  pages={519--535},
-  year={2020},
-  organization={Springer}
+@inproceedings{Structured3D,
+  title     = {Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling},
+  author    = {Jia Zheng and Junfei Zhang and Jing Li and Rui Tang and Shenghua Gao and Zihan Zhou},
+  booktitle = {Proceedings of The European Conference on Computer Vision (ECCV)},
+  year      = {2020}
 }
 ```
